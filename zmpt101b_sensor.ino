@@ -2,7 +2,7 @@
   ZMPT101B - AC Voltage sensor
   Calculate Voltage for 12-bit ADC
 */
-#include <Arduino.h>
+#include <Arduino.h> //comment this line, in case you are using arduino ide
 // Declare variables to store sensor values and results
 const int sensor_pin = 34;
 const int led = 2;
